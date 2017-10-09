@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ganesh Hubale">
+  <meta name="description" content="Posts and writings by Ganesh Hubale">
+
+
+<meta name="keywords" content="commands">
+
+  <title>
+    Open Source
+&ndash; git branch  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h3><a href="">Ganesh Hubale</a></h3>
+      <p></p>
+      <ul>
+        <li><a href="http://github.com/ganeshhubale" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ganesh-hubale-a87ab5113/" target="_blank">Linkedin</a></li>
+        <li><a href="https://twitter.com/HubaleGanesh" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    
+<article>
+  <div class="article_title">
+    <h3><a href="/git branch command.html">git branch</a></h3>
+  </div>
+  <hr />
+  <div class="article_text">
+    <blockquote>
+<p>git branch</p>
+</blockquote>
+<ul>
+<li>Branch is pointer to changes commited by you</li>
+</ul>
+<p>What to do?</p>
+<ul>
+<li>
+<p>To check on which branch you are woking now</p>
+<blockquote>
+<p>git brach</p>
+</blockquote>
+</li>
+<li>
+<p>To create new branch</p>
+<blockquote>
+<p>git branch <branch_name></p>
+</blockquote>
+</li>
+<li>
+<p>Change the working to branch to what you want</p>
+<blockquote>
+<p>git checkout <branch_name_you_want></p>
+</blockquote>
+</li>
+<li>
+<p>Now just change one file</p>
+<blockquote>
+<p>git status </p>
+</blockquote>
+</li>
+<li>
+<p>Add this file</p>
+<blockquote>
+<p>git add <file_name></p>
+</blockquote>
+</li>
+<li>
+<p>Commit the changes with msg</p>
+<blockquote>
+<p>git commit -m "new file added"</p>
+</blockquote>
+</li>
+<li>
+<p>Push to remote repository</p>
+<blockquote>
+<p>git push -u origin <branch_name></p>
+</blockquote>
+</li>
+<li>
+<p>Now lets merge the brach with master</p>
+<blockquote>
+<p>git checkout master </p>
+</blockquote>
+</li>
+</ul>
+<p>It is switching to master branch</p>
+<blockquote>
+<p>git pull origin master </p>
+</blockquote>
+<p>It is checking is there any modifications done by any one in remote repository</p>
+<blockquote>
+<p>git branch --merged </p>
+</blockquote>
+<p>It checks branches are meged or not</p>
+<blockquote>
+<p>git merge <branch_name> </p>
+</blockquote>
+<p>It merges to master)</p>
+<blockquote>
+<p>git push -u origin master </p>
+</blockquote>
+<p>It is pushing repo to remote directory in branch master</p>
+<ul>
+<li>
+<p>Now we can sent changes to master branch then we dont require <branch_name>(i.e. we have created) so we are going to delete it)</p>
+</li>
+<li>
+<p>To delete the branch locally</p>
+<blockquote>
+<p>git branch -d <branch_name></p>
+</blockquote>
+</li>
+<li>
+<p>To delete the branch remotely
+-git push origin --delete <branch_name></p>
+</li>
+</ul>
+<p>Thank you,</p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Mon 09 October 2017</p>
+    <p>Category: <a href="/category/git.html">git</a>
+ &ndash; Tags:
+      <a href="/tag/commands.html">commands</a>    </p>
+    <p>
+      
+      Share: 
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/git branch command.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/git branch command.html&text=git branch" target="_blank">&ndash; Twitter</a>
+    </p>
+  </div>
+
+
+</article>
+    <footer>
+      <p>
+      <a href="">Index</a> &brvbar; <a href="/archives.html">Archives</a>
+      </p>
+    </footer>
+
+
+    <div id="ending_message">
+      <p>&copy; Ganesh Hubale. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>
+      Share: <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=&text=Open Source" target="_blank">Twitter</a> </p>
+    </div>
+  </main>
+</body>
+</html>
