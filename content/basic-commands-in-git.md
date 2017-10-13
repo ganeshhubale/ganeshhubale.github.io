@@ -1,5 +1,5 @@
 Title: Basic commands in git!
-Date: 2017-10-02 10:00
+Date: 2017-10-03 10:00
 Category: git
 Tags: commands
 Slug: Basic-commands-in-git
