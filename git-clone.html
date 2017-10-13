@@ -17,7 +17,7 @@
 
   <title>
     Open Source
-&ndash; git push  </title>
+&ndash; git clone  </title>
 
 </head>
 
@@ -41,46 +41,53 @@
     
 <article>
   <div class="article_title">
-    <h3><a href="/git push command.html">git push</a></h3>
+    <h3><a href="/git-clone.html">git clone</a></h3>
   </div>
   <hr />
   <div class="article_text">
     <blockquote>
-<p>git push</p>
+<p>git clone</p>
 </blockquote>
 <ul>
-<li>The push command tells Git where to put your commits when you are ready with your files </li>
+<li>The clone command tells Git to fetch files from remote repository</li>
 <li>“master” is the default name for a starting branch when you run git init</li>
-<li>“origin” is the default name for a remote when you run git clone </li>
+<li>“origin” is the default name for a remote when you run git clone</li>
+<li>If you run git clone -o newbrnach instead git clone, then you will have newbranch/master as your default remote branch</li>
+<li>If you run git clone then you will have origin/master as your default branch</li>
 </ul>
 <p>What to do?</p>
 <ul>
 <li>
-<p>Enter this command after commit</p>
+<p>Enter this command to fetch files from remote repositories</p>
 <blockquote>
-<p>git push -u origin master</p>
+<p>git clone</p>
 </blockquote>
 </li>
 <li>
-<p>Or simply enter </p>
+<p>Or you can change remote name to "myorigin" instead default "origin"</p>
 <blockquote>
-<p>git push</p>
+<p>git clone -o myorigin</p>
+</blockquote>
+</li>
+<li>
+<p>To check your default branch name</p>
+<blockquote>
+<p>git branch -a</p>
 </blockquote>
 </li>
 </ul>
-<p>It will ask for your GitHub_username and GitHub_password to authenticate valid user.</p>
 <p>Thank you,</p>
   </div>
   <div class="article_meta">
-    <p>Posted on: Sun 08 October 2017</p>
+    <p>Posted on: Mon 09 October 2017</p>
     <p>Category: <a href="/category/git.html">git</a>
  &ndash; Tags:
       <a href="/tag/commands.html">commands</a>    </p>
     <p>
       
       Share: 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/git push command.html" target="_blank">Facebook</a>
-      <a href="https://twitter.com/intent/tweet?url=/git push command.html&text=git push" target="_blank">&ndash; Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/git-clone.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/git-clone.html&text=git clone" target="_blank">&ndash; Twitter</a>
     </p>
   </div>
 

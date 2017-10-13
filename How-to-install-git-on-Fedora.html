@@ -13,11 +13,11 @@
   <meta name="description" content="Posts and writings by Ganesh Hubale">
 
 
-<meta name="keywords" content="commands">
+<meta name="keywords" content="installation">
 
   <title>
     Open Source
-&ndash; git add  </title>
+&ndash; How to install git on Fedora!  </title>
 
 </head>
 
@@ -41,48 +41,47 @@
     
 <article>
   <div class="article_title">
-    <h3><a href="/git add command.html">git add</a></h3>
+    <h3><a href="/How-to-install-git-on-Fedora.html">How to install git on Fedora!</a></h3>
   </div>
   <hr />
   <div class="article_text">
-    <blockquote>
-<p>git add</p>
-</blockquote>
+    <h3>Installation of git requires following steps:</h3>
 <ul>
-<li>It will add the files to staging area</li>
-<li>To tell Git to start tracking changes made to file, we first need to add it to the STAGING AREA  </li>
+<li>To check whether git has already installed on your system or not.</li>
 </ul>
 <blockquote>
-<p>git add -A .</p>
+<p><strong>git --version</strong></p>
 </blockquote>
-<p>The dot stands for the current directory, so everything in and beneath it is added. The -A ensures even file deletions are included.</p>
-<blockquote>
-<p>git reset <filename></p>
-</blockquote>
-<p>It is used to remove file or files from staging area.</p>
-<blockquote>
-<p>git add . </p>
-</blockquote>
-<p>Adds all modified and new (untracked) files in the current directory. Any file matching the patterns in the .gitignore file will be ignored by git.</p>
-<p>What to do?</p>
 <ul>
-<li>Enter command to add files<blockquote>
-<p>git add <file_name></p>
-</blockquote>
-</li>
+<li>To install all the packages of git.</li>
 </ul>
+<blockquote>
+<p><strong>sudo dnf install git</strong></p>
+</blockquote>
+<ul>
+<li>Start to configure git with your information.</li>
+</ul>
+<blockquote>
+<p><strong>git config --global user.email &lt; your_email &gt;</strong> <strong>git config --global user.name &lt; your_name &gt;</strong></p>
+</blockquote>
+<ul>
+<li>To view all details.</li>
+</ul>
+<blockquote>
+<p><strong>git config --list</strong></p>
+</blockquote>
 <p>Thank you,</p>
   </div>
   <div class="article_meta">
-    <p>Posted on: Fri 06 October 2017</p>
+    <p>Posted on: Mon 02 October 2017</p>
     <p>Category: <a href="/category/git.html">git</a>
  &ndash; Tags:
-      <a href="/tag/commands.html">commands</a>    </p>
+      <a href="/tag/installation.html">installation</a>    </p>
     <p>
       
       Share: 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/git add command.html" target="_blank">Facebook</a>
-      <a href="https://twitter.com/intent/tweet?url=/git add command.html&text=git add" target="_blank">&ndash; Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/How-to-install-git-on-Fedora.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/How-to-install-git-on-Fedora.html&text=How to install git on Fedora!" target="_blank">&ndash; Twitter</a>
     </p>
   </div>
 

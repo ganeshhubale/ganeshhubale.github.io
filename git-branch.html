@@ -17,7 +17,7 @@
 
   <title>
     Open Source
-&ndash; git status  </title>
+&ndash; git branch  </title>
 
 </head>
 
@@ -41,94 +41,113 @@
     
 <article>
   <div class="article_title">
-    <h3><a href="/git status command.html">git status</a></h3>
+    <h3><a href="/git-branch.html">git branch</a></h3>
   </div>
   <hr />
   <div class="article_text">
     <blockquote>
-<p>git status</p>
+<p>git branch</p>
 </blockquote>
 <ul>
-<li>It is healthy to run git status often</li>
-<li>Sometimes things change and you don’t notice it</li>
-<li>It gives the status of files like untracked, unmodified, staged and  unstaged</li>
-</ul>
-<blockquote>
-<p>staged: </p>
-</blockquote>
-<p>Files are ready to be committed.</p>
-<blockquote>
-<p>unstaged:</p>
-</blockquote>
-<p>Files with changes that have not been prepared to be committed.</p>
-<blockquote>
-<p>untracked:</p>
-</blockquote>
-<p>Files aren't tracked by Git yet. This usually indicates a newly created file.  </p>
-<blockquote>
-<p>deleted:</p>
-</blockquote>
-<p>File has been deleted and is waiting to be removed from Git.</p>
-<ul>
-<li>The git status command DISPLAYS THE STATE OF THE WORKING DIRECTORY AND THE STAGING AREA</li>
+<li>Branch is pointer to changes commited by you</li>
 </ul>
 <p>What to do?</p>
 <ul>
-<li>Enter command<blockquote>
+<li>
+<p>To check on which branch you are woking now</p>
+<blockquote>
+<p>git brach</p>
+</blockquote>
+</li>
+<li>
+<p>To create new branch</p>
+<blockquote>
+<p>git branch<branch_name></branch_name></p>
+</blockquote>
+</li>
+<li>
+<p>Change the working to branch to what you want</p>
+<blockquote>
+<p>git checkout<branch_name_you_want></branch_name_you_want></p>
+</blockquote>
+</li>
+<li>
+<p>Now just change one file</p>
+<blockquote>
 <p>git status</p>
 </blockquote>
 </li>
-<li>Read the output <blockquote>
-<p>On branch master</p>
+<li>
+<p>Add this file</p>
+<blockquote>
+<p>git add<file_name></file_name></p>
+</blockquote>
+</li>
+<li>
+<p>Commit the changes with msg</p>
+<blockquote>
+<p>git commit -m "new file added"</p>
+</blockquote>
+</li>
+<li>
+<p>Push to remote repository</p>
+<blockquote>
+<p>git push -u origin<branch_name></branch_name></p>
+</blockquote>
+</li>
+<li>
+<p>Now lets merge the brach with master</p>
+<blockquote>
+<p>git checkout master</p>
 </blockquote>
 </li>
 </ul>
-<p>It means now you are working on default branch  ‘master’.</p>
+<p>It is switching to master branch</p>
 <blockquote>
-<p>Initial commit</p>
+<p>git pull origin master</p>
 </blockquote>
-<p>It show the commit message you have entered while committing any file. By deafult it shows initial commit because you have not commited any file yet. </p>
+<p>It is checking is there any modifications done by any one in remote repository</p>
 <blockquote>
-<p>nothing to commit (create/copy files and use "git add" to track)</p>
+<p>git branch --merged</p>
 </blockquote>
-<p>This is the message which clearly showing you that there is no file to commit in folder.
-So now you must have to create files or copy files from other sources whichever file you are going to commit.</p>
-<p>What to do?</p>
+<p>It checks branches are meged or not</p>
+<blockquote>
+<p>git merge<branch_name></branch_name></p>
+</blockquote>
+<p>It merges to master</p>
+<blockquote>
+<p>git push -u origin master</p>
+</blockquote>
+<p>It is pushing repo to remote directory in branch master</p>
 <ul>
-<li>Create simple file<blockquote>
-<p>gedit README.md</p>
+<li>
+<p>Now we can sent changes to master branch then we dont require <branch_name>(i.e. we have created) so we are going to delete it</branch_name></p>
+</li>
+<li>
+<p>To delete the branch locally</p>
+<blockquote>
+<p>git branch -d<branch_name></branch_name></p>
 </blockquote>
 </li>
-<li>Enter Sample information into it<blockquote>
-<p>My first file</p>
-</blockquote>
-</li>
-<li>See this File<blockquote>
-<p>ls </p>
-</blockquote>
-</li>
-<li>Or you can see the content of file<blockquote>
-<p>cat README.md   </p>
-</blockquote>
-</li>
-<li>Create file<blockquote>
-<p>touch .gitingore </p>
+<li>
+<p>To delete the branch remotely</p>
+<blockquote>
+<p>git push origin --delete<branch_name></branch_name></p>
 </blockquote>
 </li>
 </ul>
-<p>It is simple text file where we can add files that we want git to ignore.</p>
 <p>Thank you,</p>
   </div>
   <div class="article_meta">
-    <p>Posted on: Thu 05 October 2017</p>
+    <p>Posted on: Mon 09 October 2017</p>
     <p>Category: <a href="/category/git.html">git</a>
  &ndash; Tags:
       <a href="/tag/commands.html">commands</a>    </p>
     <p>
       
       Share: 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/git status command.html" target="_blank">Facebook</a>
-      <a href="https://twitter.com/intent/tweet?url=/git status command.html&text=git status" target="_blank">&ndash; Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/git-branch.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/git-branch.html&text=git branch" target="_blank">&ndash; Twitter</a>
     </p>
   </div>
 
