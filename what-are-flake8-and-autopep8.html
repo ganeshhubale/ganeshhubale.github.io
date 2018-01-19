@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ganesh Hubale">
+  <meta name="description" content="Posts and writings by Ganesh Hubale">
+
+
+<meta name="keywords" content="general">
+
+  <title>
+    Open Source
+&ndash; flake8 and autopep8  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h3><a href="">Ganesh Hubale</a></h3>
+      <p></p>
+      <ul>
+        <li><a href="http://github.com/ganeshhubale" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ganesh-hubale-a87ab5113/" target="_blank">Linkedin</a></li>
+        <li><a href="https://twitter.com/HubaleGanesh" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    
+<article>
+  <div class="article_title">
+    <h3><a href="/what-are-flake8-and-autopep8.html">flake8 and autopep8</a></h3>
+  </div>
+  <hr />
+  <div class="article_text">
+    <p>flake8 and autopep8 are magical things, I have ever seen in my open source journey till now. Open Source stuff is so interesting, if you want to work in it. Butthere is one condition, you must understand these things deeply and it requires patience or good mentor like google. I have attended my conversation with my mentor and some colleagues on IRC. I had query about failing my travis-ci builds again and again. But it has other reasons like I didn't written test cases but mentioned <code>script: pytest</code> in <code>travise.yml</code> file. They told me to go for only pep8 standards testing and to do this, I have to add <code>flake8</code> to the <code>travis.yml</code> file. My first reaction was like what are they talking about, I didn't even listen about flake8. How could I deal with it?
+Friends, Finally I understood <code>fake8</code> thoroughly and used too in my project. <code>autopep8</code> is python package which helps to format code. These two are independent.&gt; <code>flak8</code> helps to find errors in python code formating and <code>autopep8</code> helps us to fix these errors.</p>
+<p>Now we will go for it's installations and use:</p>
+<h1>flake8</h1>
+<ul>
+<li>installation</li>
+</ul>
+<div class="highlight"><pre><span></span>pip install flake8
+</pre></div>
+
+
+<ul>
+<li>use</li>
+</ul>
+<div class="highlight"><pre><span></span>flake8 example.py
+</pre></div>
+
+
+<ul>
+<li>help</li>
+</ul>
+<div class="highlight"><pre><span></span>flake8 --help
+</pre></div>
+
+
+<h1>autopep8</h1>
+<ul>
+<li>installation</li>
+</ul>
+<div class="highlight"><pre><span></span>pip install --upgrade autopep8
+</pre></div>
+
+
+<ul>
+<li>use</li>
+</ul>
+<div class="highlight"><pre><span></span>autopep8 --aggressive example.py
+</pre></div>
+
+
+<ul>
+<li>help</li>
+</ul>
+<div class="highlight"><pre><span></span>autopep8 --help
+</pre></div>
+
+
+<p>Thank you,</p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Sat 20 January 2018</p>
+    <p>Category: <a href="/category/testing.html">Testing</a>
+ &ndash; Tags:
+      <a href="/tag/general.html">general</a>    </p>
+    <p>
+      
+      Share: 
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/what-are-flake8-and-autopep8.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/what-are-flake8-and-autopep8.html&text=flake8 and autopep8" target="_blank">&ndash; Twitter</a>
+    </p>
+  </div>
+
+
+</article>
+    <footer>
+      <p>
+      <a href="">Index</a> &brvbar; <a href="/archives.html">Archives</a>
+      </p>
+    </footer>
+
+
+    <div id="ending_message">
+      <p>&copy; Ganesh Hubale. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>
+      Share: <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=&text=Open Source" target="_blank">Twitter</a> </p>
+    </div>
+  </main>
+</body>
+</html>
