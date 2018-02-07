@@ -120,12 +120,12 @@ Something about --force and --force-with-lease
 <blockquote>
 <p><strong>git reset --hard commit_hashcode</strong></p>
 </blockquote>
-<p>Hashcode is must of commit where you want to point your HEAD.</p>
+<p>Hashcode is must be of commit where you want to point your HEAD.</p>
 </li>
 <li>
 <p>Now switch to <strong>new</strong> branch</p>
 <blockquote>
-<p><strong>git push</strong></p>
+<p><strong>git push origin new</strong></p>
 </blockquote>
 <p>Make new PR with changes done.</p>
 </li>
@@ -135,14 +135,14 @@ Something about --force and --force-with-lease
 <li><strong>--force-with-lease</strong></li>
 </ul>
 <blockquote>
-<p><strong>git --force-with-lease</strong></p>
+<p><strong>git push --force-with-lease origin old</strong></p>
 </blockquote>
 <p>Will be useful; if you were not gone through any conflicts.</p>
 <ul>
 <li><strong>--force</strong></li>
 </ul>
 <blockquote>
-<p><strong>git --force</strong></p>
+<p><strong>git push --force origin old</strong></p>
 </blockquote>
 <p>Will be useful in any condition.</p>
 </li>
