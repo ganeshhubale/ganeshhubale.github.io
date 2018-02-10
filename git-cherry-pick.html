@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif|PT+Mono">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ganesh Hubale">
+  <meta name="description" content="Posts and writings by Ganesh Hubale">
+
+
+<meta name="keywords" content="commands">
+
+  <title>
+    Open Source
+&ndash; Fear of cherry-pick  </title>
+
+</head>
+
+<body>
+  <aside>
+    <div id="user_meta">
+      <a href="">
+        <img src="/theme/images/logo.png" alt="logo">
+      </a>
+      <h3><a href="">Ganesh Hubale</a></h3>
+      <p></p>
+      <ul>
+        <li><a href="http://github.com/ganeshhubale" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/ganesh-hubale-a87ab5113/" target="_blank">Linkedin</a></li>
+        <li><a href="https://twitter.com/HubaleGanesh" target="_blank">Twitter</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <main>
+    
+<article>
+  <div class="article_title">
+    <h3><a href="/git-cherry-pick.html">Fear of cherry-pick</a></h3>
+  </div>
+  <hr />
+  <div class="article_text">
+    <p>I was very happy for doing a lot of essential changes and making it's one PR in reference with more than one issues. I asked one of my friend <a href="https://github.com/bhavin192">@bhavin192</a> to review these changes because I want to merge this PR as early as possible. I was expecting to get positive reply but he replied me to perform those things which I didn't do earlier. He wants me to make only one PR for each issue.</p>
+<blockquote>
+<p>Making an individual PR for every issue is essential because it helps novice reviewer to understand and review particular changes regarding that issue.</p>
+</blockquote>
+<p>This was the first mistake; I need to fix. There are various ways to do it like we can reset that branch. Then by creating new branch from master; we can be able make changes manually or can copy-paste old code. But there was something waiting for me.</p>
+<p>Yes, It's <strong>cherry-pick</strong>.</p>
+<blockquote>
+<p><strong>git cherry-pick</strong>. It is something like moving commits from one branch to another.</p>
+</blockquote>
+<p>I was surprised but I knew it must be command. He wants me to use this command to fix this problem. My reaction was like please let me merge this PR. I will take care of it for next PRs. I searched about it. I understood somehow then we decided to do it. </p>
+<p>First time I thought it would be very complicated but because of doing it on my own with his support. I found it very simple and best way to fix such problems. I did silly mistakes too which helped me to understand new things. Also he introduced me to new git commands. I got one more thing from this experience is </p>
+<blockquote>
+<p>Solving particular problem introduces us to various aspects other problems too. </p>
+</blockquote>
+<p>Now I have very simple way in my mind to perform it. I performed it for remaining changes in morning. I will introduce you to the process of git cherry-pick in a very simple way.</p>
+<p>You just have to know basic things like</p>
+<div class="highlight"><pre><span></span>How to reset a branch!
+Creating a new branch and switching to it.
+Familiar with making PRs.
+Something about --force and --force-with-lease
+</pre></div>
+
+
+<blockquote>
+<p><strong>Note: Do not perform any changes or --force on  master branch.</strong></p>
+</blockquote>
+<ul>
+<li>Create a new branch from master. Let's say, <strong>new</strong> branch</li>
+<li>Switch to branch from where you had done PR. Let's say, <strong>old</strong> branch</li>
+<li>
+<p>We have to see commits and it's hashcodes. So that we can cherry-pick selected commits on <strong>new</strong> branch from <strong>old</strong> branch.</p>
+<ul>
+<li>
+<p>To get commit list with it's hashcodes.</p>
+<blockquote>
+<p><strong>git log  --oneline</strong></p>
+</blockquote>
+<p>Pick hashcodes one by one you want to cherry-pick on <strong>new</strong> branch.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Switch to <strong>new</strong> branch.</p>
+<blockquote>
+<p>git cherry-pick commit_hashcode</p>
+</blockquote>
+</li>
+<li>
+<p>There are two cases, you may find conflicts or you may not.</p>
+<ul>
+<li>
+<p>Case First: found conflicts, resolved and saved changes.</p>
+<ul>
+<li><strong>git add</strong> this file </li>
+<li>
+<p>just make command : <strong>git cherry-pick --continue</strong> then <strong>git commit</strong> </p>
+<ul>
+<li>Case Second: No conflicts.</li>
+</ul>
+</li>
+<li>
+<p><strong>git status</strong></p>
+</li>
+<li>
+<p>There will be nothing to add or commit.</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Now switch to <strong>old</strong> branch.</p>
+<blockquote>
+<p><strong>git reset --hard commit_hashcode</strong></p>
+</blockquote>
+<p>Hashcode is must be of commit where you want to point your HEAD.</p>
+</li>
+<li>
+<p>Now switch to <strong>new</strong> branch</p>
+<blockquote>
+<p><strong>git push origin new</strong></p>
+</blockquote>
+<p>Make new PR with changes done.</p>
+</li>
+<li>
+<p>Switch to <strong>old</strong> branch. </p>
+<ul>
+<li><strong>--force-with-lease</strong></li>
+</ul>
+<blockquote>
+<p><strong>git push --force-with-lease origin old</strong></p>
+</blockquote>
+<p>Will be useful; if you were not gone through any conflicts.</p>
+<ul>
+<li><strong>--force</strong></li>
+</ul>
+<blockquote>
+<p><strong>git push --force origin old</strong></p>
+</blockquote>
+<p>Will be useful in any condition.</p>
+</li>
+</ul>
+<p>Thank you,</p>
+  </div>
+  <div class="article_meta">
+    <p>Posted on: Wed 07 February 2018</p>
+    <p>Category: <a href="/category/git.html">git</a>
+ &ndash; Tags:
+      <a href="/tag/commands.html">commands</a>    </p>
+    <p>
+      
+      Share: 
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/git-cherry-pick.html" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=/git-cherry-pick.html&text=Fear of cherry-pick" target="_blank">&ndash; Twitter</a>
+    </p>
+  </div>
+
+
+  <div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT 
+     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR 
+     *  PLATFORM OR CMS.
+     *  
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: 
+     *  https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = PAGE_URL;  
+        
+        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = PAGE_IDENTIFIER; 
+    };
+    */
+    
+    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+        var d = document, s = d.createElement('script');
+        
+        // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = 'https://ganeshhubale.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the 
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
+        comments powered by Disqus.
+    </a>
+</noscript>
+
+</article>
+    <footer>
+      <p>
+      <a href="">Index</a> &brvbar; <a href="/archives.html">Archives</a>
+      </p>
+    </footer>
+
+
+    <div id="ending_message">
+      <p>&copy; Ganesh Hubale. Built using <a href="http://getpelican.com" target="_blank">Pelican</a>
+      Share: <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=&text=Open Source" target="_blank">Twitter</a> </p>
+    </div>
+  </main>
+</body>
+</html>
