@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-remote
 Authors: Ganesh Hubale
-Summary: 
 > git remote
 
 *   Remote is a server like [GitHub](https://github.com), [Bitbucket](https://bitbucket.org/) etc

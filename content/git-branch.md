@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-branch
 Authors: Ganesh Hubale
-Summary: 
 > git branch
 
 *   Branch is pointer to changes commited by you

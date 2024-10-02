@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-add
 Authors: Ganesh Hubale
-Summary: 
 > git add
 
 *   It will add the files to staging area

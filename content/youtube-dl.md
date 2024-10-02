@@ -4,7 +4,6 @@ Category: Fedora
 Tags: general
 Slug: install-youtube-dl-on-fedora
 Authors: Ganesh Hubale
-Summary:
 
 Today, I will introduce you to the youtube-dl. It is a Python based small command-line tool that allows to download videos from [YouTube](https://www.youtube.com/), [Dailymotion](http://www.dailymotion.com/in), [Photobucket](photobucket.com) etc. It is not platform restricted. It is written in Python interpreter. So that it requires Python interpreter to run. It can run on any Unix, Windows or Mac OS X based systems. I came to know about it because, I always need to download random videos. But before this I need to download each of them individually. Here we can create one text file of these video's URLs and can be able to download them all in one hit.
 

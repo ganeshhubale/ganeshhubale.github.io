@@ -4,7 +4,6 @@ Category: git
 Tags: installation
 Slug: How-to-install-git-on-Fedora
 Authors: Ganesh Hubale
-Summary: 
 
 ### Installation of git requires following steps:
 

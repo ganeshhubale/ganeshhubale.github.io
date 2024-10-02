@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-cherry-pick
 Authors: Ganesh Hubale
-Summary:
 
 I was very happy for doing a lot of essential changes and making it's one PR in reference with more than one issues. I asked one of my friend [@bhavin192](https://github.com/bhavin192) to review these changes because I want to merge this PR as early as possible. I was expecting to get positive reply but he replied me to perform those things which I didn't do earlier. He wants me to make only one PR for each issue.
 

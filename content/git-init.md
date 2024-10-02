@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-init
 Authors: Ganesh Hubale
-Summary: 
 
 > git init
 

@@ -3,8 +3,9 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ganesh Hubale'
-SITENAME = u'Open Source'
+SITENAME = u'Ganesh Hubale'
 SITEURL = ''
+#TAGLINE="Ganesh Hubale"
 
 PATH = 'content'
 
@@ -31,7 +32,9 @@ LINKS = (('GitHub', 'http://github.com/ganeshhubale'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = 'pelican-themes/min-pelican-theme'
+THEME = 'pelican-svbhack'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+USER_LOGO_URL='https://avatars.githubusercontent.com/u/25399590'
+ROUND_USER_LOGO=True

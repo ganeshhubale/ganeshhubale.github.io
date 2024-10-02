@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-status
 Authors: Ganesh Hubale
-Summary: 
 > git status
 
 *   It is healthy to run git status often

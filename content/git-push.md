@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-push
 Authors: Ganesh Hubale
-Summary: 
 > git push
 
 *   The push command tells Git where to put your commits when you are ready with your files

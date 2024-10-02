@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-commit
 Authors: Ganesh Hubale
-Summary: 
 > git commit
 
 *   Commit is snapshot of the exact state of every tracked file in your working tree

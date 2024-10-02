@@ -4,7 +4,6 @@ Category: git
 Tags: commands
 Slug: git-clone
 Authors: Ganesh Hubale
-Summary: 
 > git clone
 
 *   The clone command tells Git to fetch files from remote repository

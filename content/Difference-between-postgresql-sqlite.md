@@ -4,7 +4,6 @@ Category: git
 Tags: general
 Slug: diff-sqlite3-postgresql
 Authors: Ganesh Hubale
-Summary:
 
 SQLite3 and PostgreSQL are two databases which are widely used with python for open source projects. Both are open source. if we compare both of them, we will find interesting differences among them. Let's go for it!
 # SQLite3
