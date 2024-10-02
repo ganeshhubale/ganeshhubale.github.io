@@ -1,7 +1,7 @@
 Title: Difference between SQLite3 and PostgreSQL!
 Date: 2018-01-19 01:00
-Category: git
-Tags: general
+Category: Tech
+Tags: Database
 Slug: diff-sqlite3-postgresql
 Authors: Ganesh Hubale
 

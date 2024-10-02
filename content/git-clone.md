@@ -1,7 +1,7 @@
 Title: git clone
 Date: 2017-10-09 11:02
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-clone
 Authors: Ganesh Hubale
 > git clone

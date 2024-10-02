@@ -1,7 +1,7 @@
 Title: git remote
 Date: 2017-10-07 10:00
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-remote
 Authors: Ganesh Hubale
 > git remote

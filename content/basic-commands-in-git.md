@@ -1,7 +1,7 @@
 Title: Basic commands in git!
 Date: 2017-10-03 10:00
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: Basic-commands-in-git
 Authors: Ganesh Hubale
 Git is distributed version control system. It is useful to work with open source platforms like GitHub, GitBook etc. There are different commands to use it properly. Let’s enlist basic commands:

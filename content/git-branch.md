@@ -1,7 +1,7 @@
 Title: git branch
 Date: 2017-10-09 09:02
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-branch
 Authors: Ganesh Hubale
 > git branch

@@ -1,7 +1,7 @@
 Title: Fear of cherry-pick
 Date: 2018-02-07 01:11
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-cherry-pick
 Authors: Ganesh Hubale
 

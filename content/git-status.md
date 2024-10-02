@@ -1,7 +1,7 @@
 Title: git status
 Date: 2017-10-05 18:02
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-status
 Authors: Ganesh Hubale
 > git status

@@ -1,7 +1,7 @@
 Title: git add
 Date: 2017-10-06 13:02
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-add
 Authors: Ganesh Hubale
 > git add

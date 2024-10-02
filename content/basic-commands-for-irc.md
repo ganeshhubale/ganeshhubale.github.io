@@ -1,9 +1,10 @@
 Title: Basic commands for IRC!
 Date: 2017-10-13 18:02
-Category: irc
-Tags: commands
+Category: Tech
+Tags: Chat
 Slug: basic-commands-for-irc
 Authors: Ganesh Hubale
+
 IRC is acronym of Internet Relay Chat. IRC channels are the platforms where you can communicate with people of perticular communities. You can ask your queries there. You can join any community. Only required is to follow their etiquette otherwise they may kick you out of the channel. There are different commands which are used to communicate on irc channels. Since one month I was going through this process. I always wanted to ask queries on irc channel but don't know actually how to ask or communicate with people on irc. Then I searched on internet and got some information about commands required.
 
 *   To register your nickname

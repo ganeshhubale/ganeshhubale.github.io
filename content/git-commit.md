@@ -1,7 +1,7 @@
 Title: git commit
 Date: 2017-10-06 12:33
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-commit
 Authors: Ganesh Hubale
 > git commit

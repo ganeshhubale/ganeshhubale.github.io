@@ -1,7 +1,7 @@
 Title: How to install git on Fedora!
 Date: 2017-10-02 18:02
-Category: git
-Tags: installation
+Category: Tech
+Tags: Git
 Slug: How-to-install-git-on-Fedora
 Authors: Ganesh Hubale
 

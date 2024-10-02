@@ -1,7 +1,7 @@
 Title: git push
 Date: 2017-10-08 18:00
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-push
 Authors: Ganesh Hubale
 > git push

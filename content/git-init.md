@@ -1,7 +1,7 @@
 Title: git init
 Date: 2017-10-05 18:0
-Category: git
-Tags: commands
+Category: Tech
+Tags: Git
 Slug: git-init
 Authors: Ganesh Hubale
 

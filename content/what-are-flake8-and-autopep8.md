@@ -1,7 +1,7 @@
 Title: flake8 and autopep8
 Date: 2018-01-20 02:00
-Category: Testing
-Tags: general
+Category: Tech
+Tags: Python
 Slug: what-are-flake8-and-autopep8
 Authors: Ganesh Hubale
 
