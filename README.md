@@ -46,9 +46,9 @@ If you want to run this project locally or contribute, follow these instructions
    ```
    Visit `http://localhost:8000` in your browser to preview the site.
 
-### Deployment
+### Push and Publish blog
 
-This site is automatically deployed via **GitHub Pages** whenever changes are pushed to the `main` branch. You can manually trigger the deployment by:
+This site is automatically deployed via **GitHub Pages** whenever changes are pushed to the `master` branch. You can manually trigger the deployment by:
 1. Committing changes:
    ```bash
    git add .
@@ -57,7 +57,7 @@ This site is automatically deployed via **GitHub Pages** whenever changes are pu
 
 2. Pushing to GitHub:
    ```bash
-   git push origin main
+   git push origin master
    ```
 
 ## Contributing
