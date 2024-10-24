@@ -33,7 +33,7 @@ LINKS = (('GitHub', 'http://github.com/ganeshhubale'),
 DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-svbhack'
-
+USE_GENERIC_FONT_FAMILIES=True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 USER_LOGO_URL='https://avatars.githubusercontent.com/u/25399590'
