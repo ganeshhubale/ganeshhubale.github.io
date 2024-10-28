@@ -44,6 +44,15 @@ If you want to run this project locally or contribute, follow these instructions
    cd output
    python -m http.server
    ```
+
+   OR
+
+   *You can also tell Pelican to watch for your modifications, instead of manually re-running it every time you want to see your changes.*
+
+   ```bash
+   pelican -r -l
+   ```
+   
    Visit `http://localhost:8000` in your browser to preview the site.
 
 ### Push and Publish blog
